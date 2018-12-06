@@ -1,8 +1,8 @@
 # Motivação do Projeto 
-Teste criado para a analise de utilizar um diolog material e utilizar rotas internamente dentro de tal. 
+Teste criado para a analise de utilizar um dialog material e utilizar rotas internamente dentro de tal. 
 
 
-# PradellaTestDiolog
+# PradellaTestDialog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
