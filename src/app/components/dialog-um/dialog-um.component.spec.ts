@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DiologUmComponent } from './diolog-um.component';
+import { dialogUmComponent } from './dialog-um.component';
 
-describe('DiologUmComponent', () => {
-  let component: DiologUmComponent;
-  let fixture: ComponentFixture<DiologUmComponent>;
+describe('dialogUmComponent', () => {
+  let component: dialogUmComponent;
+  let fixture: ComponentFixture<dialogUmComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DiologUmComponent ]
+      declarations: [ dialogUmComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DiologUmComponent);
+    fixture = TestBed.createComponent(dialogUmComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

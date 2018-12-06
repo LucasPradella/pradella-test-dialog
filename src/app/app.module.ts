@@ -4,19 +4,19 @@ import { MatToolbarModule, MatDialog, MatDialogModule } from '@angular/material'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DiologUmComponent } from './components/diolog-um/diolog-um.component';
-import { DiologDoisComponent } from './components/diolog-dois/diolog-dois.component';
+import { dialogUmComponent } from './components/dialog-um/dialog-um.component';
+import { dialogDoisComponent } from './components/dialog-dois/dialog-dois.component';
 import { HeaderComponent } from './header/header.component';
-import { DiologPrincipalComponent } from './diolog-principal/diolog-principal.component';
+import { dialogPrincipalComponent } from './dialog-principal/dialog-principal.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DiologUmComponent,
-    DiologDoisComponent,
+    dialogUmComponent,
+    dialogDoisComponent,
     HeaderComponent,
-    DiologPrincipalComponent
+    dialogPrincipalComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +26,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule 
   ],
   entryComponents: [
-    DiologPrincipalComponent
+    dialogPrincipalComponent
    ],
   providers: [],
   bootstrap: [AppComponent]

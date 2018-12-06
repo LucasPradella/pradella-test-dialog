@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DiologPrincipalComponent } from './diolog-principal.component';
+import { dialogDoisComponent } from './dialog-dois.component';
 
-describe('DiologPrincipalComponent', () => {
-  let component: DiologPrincipalComponent;
-  let fixture: ComponentFixture<DiologPrincipalComponent>;
+describe('dialogDoisComponent', () => {
+  let component: dialogDoisComponent;
+  let fixture: ComponentFixture<dialogDoisComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DiologPrincipalComponent ]
+      declarations: [ dialogDoisComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DiologPrincipalComponent);
+    fixture = TestBed.createComponent(dialogDoisComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

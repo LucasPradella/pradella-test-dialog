@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material';
-import { DiologPrincipalComponent } from './diolog-principal/diolog-principal.component';
+import { dialogPrincipalComponent } from './dialog-principal/dialog-principal.component';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ import { DiologPrincipalComponent } from './diolog-principal/diolog-principal.co
 export class AppComponent implements OnInit{
 
   constructor(
-    private diolog: MatDialog,
+    private dialog: MatDialog,
   ){
     
   }
@@ -21,7 +21,7 @@ export class AppComponent implements OnInit{
   
   
   openDialog(): void {
-     this.diolog.open(DiologPrincipalComponent, {
+     this.dialog.open(dialogPrincipalComponent, {
       width: '70%',
       height: '50'
     });
