@@ -1,6 +1,5 @@
 # Motivação do Projeto 
-Teste criado para a analise de utilizar um diolog material, e 
-utilizar rotas internamente dentro de tal. 
+Teste criado para a analise de utilizar um diolog material e utilizar rotas internamente dentro de tal. 
 
 
 # PradellaTestDiolog
